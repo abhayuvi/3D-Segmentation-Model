@@ -39,6 +39,59 @@ Example command :  python scripts/train.py
 Validation: The model’s performance is validated using a separate validation dataset, and the Dice score is computed for each organ.
 Inference: After training, the model is used to generate segmentation masks for unseen CT scans.
 
+Formula for Dice Score:
+The Dice Score is calculated using the following formula:
+
+Dice Score
+=
+2
+×
+∣
+𝐴
+∩
+𝐵
+∣
+∣
+𝐴
+∣
++
+∣
+𝐵
+∣
+Dice Score= 
+∣A∣+∣B∣
+2×∣A∩B∣
+​
+ 
+Where:
+
+∣
+𝐴
+∩
+𝐵
+∣
+∣A∩B∣ is the number of elements (e.g., pixels or voxels) where both the predicted mask 
+𝐴
+A and the ground truth mask 
+𝐵
+B are 1 (i.e., the intersection of 
+𝐴
+A and 
+𝐵
+B).
+∣
+𝐴
+∣
+∣A∣ is the number of elements in the predicted mask 
+𝐴
+A.
+∣
+𝐵
+∣
+∣B∣ is the number of elements in the ground truth mask 
+𝐵
+B.
+
 Example command : python scripts/inference.py
 
 
