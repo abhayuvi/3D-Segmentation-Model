@@ -13,7 +13,7 @@ This project involves the development of a 3D segmentation model to accurately s
 
 Ensure that you have Python 3.8 or higher installed. You will also need to install the following Python libraries:
 
-pip install torch torchvision monai nibabel numpy matplotlib SimpleITK
+pip install torch torchvision nibabel numpy matplotlib scikit-image monai
 
 ### Model Architecture
 
