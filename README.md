@@ -1,5 +1,8 @@
 # 3D Segmentation Model for CT Abdomen Organs
 
+![organs](https://github.com/user-attachments/assets/13e3b9a3-b61e-4b3f-b5a2-f9f687d0bb11)
+
+
 ## Overview
 
 This project involves the development of a 3D segmentation model to accurately segment and identify specific abdominal organs (Liver, Right Kidney, Left Kidney, and Spleen) from CT scans. The model is built using a VNet architecture and is trained on a public dataset of abdominal CT scans. The primary goal is to assist in medical imaging by automating the segmentation process, which can aid in disease diagnosis, surgical planning, and treatment monitoring.
