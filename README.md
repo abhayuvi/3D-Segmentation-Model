@@ -41,7 +41,7 @@ Inference: After training, the model is used to generate segmentation masks for 
 
 Example command : python scripts/inference.py
 
-Formula for Dice Score:
+## Formula for Dice Score:
 =
 
 (2×∣A∩B∣)/(∣A∣+∣B∣)
@@ -59,7 +59,7 @@ Where:
 
 
 
-### 3D Visualization
+## 3D Visualization
 
 
 
