@@ -40,9 +40,6 @@ Validation: The model’s performance is validated using a separate validation d
 Inference: After training, the model is used to generate segmentation masks for unseen CT scans.
 
 Formula for Dice Score:
-The Dice Score is calculated using the following formula:
-
-Dice Score
 =
 2
 ×
