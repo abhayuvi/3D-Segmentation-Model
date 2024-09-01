@@ -1,3 +1,8 @@
+import torch
+from torch.utils.data import Dataset
+import numpy as np
+import nibabel as nib
+import os
 class CTScanDataset(Dataset):
     def __init__(self, images_dir, labels_dir, target_depth=None, transform=None):
         self.images_dir = images_dir
