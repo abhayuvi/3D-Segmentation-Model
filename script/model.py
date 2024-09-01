@@ -1,3 +1,6 @@
+import torch
+import torch.nn as nn
+from monai.networks.nets import VNet
 class SegmentationModel(nn.Module):
     def __init__(self):
         super(SegmentationModel, self).__init__()
